@@ -1,0 +1,80 @@
+body {
+  background: #eceff2;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  width: 626px;
+  height: 486px;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  color: #3f3d56;
+  margin: 32px auto 16px;
+}
+
+h1 span {
+  color: #ee24ff;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #828282;
+}
+
+p span {
+  color: #3f3d56;
+  font-weight: bold;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 42px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #3f3d56;
+}
+
+#line {
+  width: 391px;
+  height: 0px;
+  border: 8px solid #eceff2;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 176px;
+  display: flex;
+
+  background-image: url(./assets/Wave.png);
+  background-repeat: no-repeat;
+  background-size: 100% 104px;
+  background-position-y: bottom;
+}
+
+footer > img {
+  width: auto;
+  height: 176px;
+  position: absolute;
+  bottom: 0;
+}
